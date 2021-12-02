@@ -2,6 +2,18 @@ body {
     margin:0;
     background:#000;
 }
+#button {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 5rem;
+    margin: 50% 25%;
+    background: #17a0ee;
+    font-size: 3rem;
+
+}
+
 
 p {
     font-size: 15px;

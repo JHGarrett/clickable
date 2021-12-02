@@ -16,10 +16,16 @@
         } else {
             x.style.display = "none";
         }
+        var y = document.getElementById("button");
+        if (y.style.display === "flex") {
+            y.style.display = "none";
+        } else {
+            y.style.display = "flex";
+        }
     }
 </script>
 
-<input type="button" value="PLAY" onclick="play()">
+<input id="button" type="button" value="Click Me" onclick="play()" style="display:flex">
 <audio id="audio" src="Never%20Gonna%20Give%20You%20Up%20Original.mp3"></audio>
 
 <!-- Add your site or application content here -->
